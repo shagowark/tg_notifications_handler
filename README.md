@@ -1,7 +1,7 @@
 # tg_notifications_handler
 handler for telegram notifications (messages) from bots or whatever
 
-when a new message arrives to a specified chat, if it satisfies black and white lists, it will be sended to a specified receiver<br>
+when a new message arrives to a specified chat, if it satisfies black and white lists, it will be sent to a specified receiver<br>
 note: the message won't be forwarded, the new message with exat same text will be sent from your account<br>
 that means you'll be online when the message is being sent<br>
 
