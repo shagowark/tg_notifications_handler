@@ -30,8 +30,8 @@ def filter_words(event): #simple filtration
 #activates when new message that passes the filter comes in a specified chat
 @client.on(events.NewMessage(incoming=True, chats=<CHAT_ID_TO_GET_MESSAGED>, func=filter_words))
 async def notifications_handler(event):
-    message = event.raw_text #gets text of a message
-    await client.send_message(receiver, message, parse_mode='html') #sends message to a receiver
+    message = event.raw_text #gets text of the message
+    await client.send_message(receiver, message, parse_mode='html') #sends message to the receiver
 
 
 keep_alive() #runs flask server, needed to keep script running 24/7 on some vps
