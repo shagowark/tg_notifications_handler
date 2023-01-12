@@ -11,7 +11,7 @@ phone = <YOUR_PHONE_NUMBER_WITH_COUNTRY_CODE>
 password = <PASSWORD_THAT_TG_SENDS_TO_YOU> #for the first run paste 11111 here;
                                            #in the first run you'll have to enter your password manually in terminal
                                            #after that, you can paste it here and everything will be done automatically in next runs
-receiver = InputPeerChat(<WANTED_CHAT_ID>) #chat id of a receiver, it easy to google how to get it
+receiver = InputPeerChat(<WANTED_CHAT_ID>) #chat id of a receiver, it is easy to google how to get it
 #IMPORTANT NOTE
 #if the receiver is not a group chat, but, for example, another user, you might want to change InputPeerChat->InputPeerUser or whatever you need
 
